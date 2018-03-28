@@ -400,7 +400,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dnsseed.berycoin.com", "seed1.berycoin.com", "seed2.berycoin.com", ""};
+static const string mainnet_seeds[] = {"dnsseed.berycoin.com", "dnsseed.berycoin.org", "bilal.myfxstore.com", "bago.resteemexposure.com", ""};
 static const string testnet_seeds[] = {"testnet.berycoin.com", ""};
 static const string *seeds = mainnet_seeds;
 
